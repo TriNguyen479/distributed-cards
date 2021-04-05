@@ -45,7 +45,7 @@ ol li {
 
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: center;
 }
 
 h2 {
@@ -55,6 +55,7 @@ h2 {
 
 ol li p {
   flex-grow: 1;
+  padding: .5em .75em .6em;
 }
 
 ol li a {
