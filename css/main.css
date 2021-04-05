@@ -38,14 +38,14 @@ ol {
 ol li {
   background-color: #ede3db;
   list-style-type: none;
-  padding: .5em .75em .6em;
+  padding: 0 .75em .6em;
   margin: 0;
   border: 2px solid #623b0c;
   border-radius: 8px;
 
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 h2 {
@@ -55,7 +55,6 @@ h2 {
 
 ol li p {
   flex-grow: 1;
-  padding: .5em .75em .6em;
 }
 
 ol li a {
@@ -64,5 +63,4 @@ ol li a {
   background-color: #623b0c;
   padding: .5em .75em .6em;
   border-radius: 8px;
-
 }
