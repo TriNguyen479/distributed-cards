@@ -32,20 +32,20 @@ ol {
   grid-template-columns: 1fr 1fr;
   gap: 1rem;
   margin: 0;
-  padding: .5em .75em .6em;
+  padding: 1rem;
 }
 
 ol li {
   background-color: #ede3db;
   list-style-type: none;
-  padding: 0 .75em .6em;
+  padding: 1rem;
   margin: 0;
   border: 2px solid #623b0c;
   border-radius: 8px;
 
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 h2 {
@@ -54,7 +54,7 @@ h2 {
 }
 
 ol li p {
-  flex-grow: 1;
+
 }
 
 ol li a {
