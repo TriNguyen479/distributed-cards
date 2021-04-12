@@ -12,10 +12,12 @@ html {
 
 img {
   width: 100%;
+  margin-bottom: 1.5rem;
 }
 
 body {
   background-color: #f5f2f0;
+  margin: 0;
 }
 
 main {
@@ -58,18 +60,19 @@ h2 {
   padding: 0;
 }
 
-ol li p {
-
-}
-
 ol li a {
   text-decoration: none;
   color: #fff;
   background-color: #623b0c;
   padding: .5em .75em .6em;
   border-radius: 8px;
+  margin-top: 1.5rem;
 }
 
 a:hover {
   background-color: black;
+}
+
+p {
+  margin: 0 0 auto;
 }
